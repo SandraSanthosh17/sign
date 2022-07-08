@@ -1,0 +1,11 @@
+# For getting next batch of testing imgs...
+imgs, labels = next(test_batches) 
+
+scores = model.evaluate(imgs, labels, verbose=0)
+print(f'{model.metrics_names[0]} of {scores[0]}; {model.metrics_names[1]} of {scores[1]*100}%')
+
+
+Once the model is fitted we save the model using model.save()  function.
+
+
+model.save('best_model_dataflair3.h5')
