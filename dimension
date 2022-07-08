@@ -1,0 +1,9 @@
+model = keras.models.load_model(r"C:\Users\abhij\best_model_dataflair3.h5")
+
+background = None
+accumulated_weight = 0.5
+
+ROI_top = 100
+ROI_bottom = 300
+ROI_right = 150
+ROI_left = 350
