@@ -1,1 +1,2 @@
-# sign
+# Project Title
+SIGN LANGUAGE RECOGNITION
