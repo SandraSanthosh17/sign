@@ -21,7 +21,9 @@ This is divided into 3 parts:
 1.Creating the dataset
 2.Training a CNN on the captured dataset
 3.Predicting the data
-All of which are created as three separate .py files. 
+All of which are created as three separate .py files.![image](https://user-images.githubusercontent.com/106008408/178007389-0a517bc6-fb1b-4db7-bee7-611a9bf49126.png)
+
+
 # Summary
 We have successfully developed sign language detection project. This is an interesting machine learning python project to gain expertise. This can be further extended for detecting the English alphabets.
 
