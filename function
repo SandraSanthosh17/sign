@@ -1,0 +1,17 @@
+imgs, labels = next(train_batches)
+
+#Plotting the images...
+def plotImages(images_arr):
+    fig, axes = plt.subplots(1, 10, figsize=(30,20))
+    axes = axes.flatten()
+    for img, ax in zip( images_arr, axes):
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        ax.imshow(img)
+        ax.axis('off')
+    plt.tight_layout()
+    plt.show()
+
+
+plotImages(imgs)
+print(imgs.shape)
+print(labels)
